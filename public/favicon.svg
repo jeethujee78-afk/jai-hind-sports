@@ -1,0 +1,24 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="saffronGrad" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FF9933" />
+      <stop offset="100%" stopColor="#E65100" />
+    </linearGradient>
+    <linearGradient id="whiteGrad" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="100%" stopColor="#B0BEC5" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#138808" />
+      <stop offset="100%" stopColor="#0B5205" />
+    </linearGradient>
+    <radialGradient id="softSaffronGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stopColor="#FF9933" stopOpacity="0.1" />
+      <stop offset="100%" stopColor="#FF9933" stopOpacity="0" />
+    </radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="50" fill="url(#softSaffronGlow)" />
+  <path d="M20 32 L44 20 L84 60 L60 72 Z" fill="url(#saffronGrad)" />
+  <path d="M36 48 L60 36 L100 76 L76 88 Z" fill="url(#whiteGrad)" />
+  <path d="M52 64 L76 52 L116 92 L92 104 Z" fill="url(#greenGrad)" />
+</svg>
